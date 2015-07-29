@@ -1,0 +1,26 @@
+html
+   body
+      p
+      <%- model.title %>
+      p
+      <%- model.author.lastName %>
+      p
+      <%- model.context %>
+      p
+      <%- model.comments.text %>
+      p
+      <%- model.notes.nota %>
+      i.glyphicon.glyphicon-edit.updateArticle
+      h3 Add Comment:
+      .add-comment
+      label(for='addcomment') Comment:
+      textarea#add-box.addbox(rows='5')
+      p
+      button.btn.btn-success(type='button', value='Add', id='AddCommentButton') Add Comment
+
+
+
+#infoComment
+
+
+

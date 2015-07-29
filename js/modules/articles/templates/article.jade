@@ -1,0 +1,16 @@
+html
+    body
+    #article
+        h2.titlu <%- model.title %>
+        h5.autor <%- model.author.lastName %> <%- model.author.firstName %>
+        p.context &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%- model.context %>
+        p ...
+            i.glyphicon.glyphicon-chevron-right.editContact
+            i.glyphicon.glyphicon-trash.deleteArticle
+
+        //p
+        //button.example(onclick='editArticle')
+        //| Read More
+
+div
+hr.line

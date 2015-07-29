@@ -1,0 +1,18 @@
+//
+   Created by Delia on 7/29/2015.
+
+html
+   body
+       p Title
+       textarea#title.form-control(rows='5') <%- model.title %>
+
+       p Author Last Name
+       textarea#lastname.form-control(rows='5') <%- model.author.lastName %>
+
+       p Author First Name
+       textarea#firstname.form-control(rows='5') <%- model.author.firstName %>
+
+       p Context
+       textarea#context.form-control(rows='5') <%- model.context %>
+
+       button.btn.btn-success(type='button', value='Update', id='UpdateArticleButton') Update Article
